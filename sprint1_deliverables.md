@@ -7,10 +7,10 @@
 
 **Members:**
 1.  **Sameer Chaudhary Tharu** (ID: A00027591) - Lead Developer / Scrum Master
-2.  **Mahesh Batala**(ID: A00025335) - Frontend Developer
+2.  **Mahesh Batala** (ID: A00025335) - Frontend Developer
 3.  **Dhiraj Yadav** (ID: A00035843) - Backend Developer
-4.  **Prativa Rai** -(ID: A00021056) Database Administrator / Tester
-5.  **Rupesh Shah** -(ID: A00017407) DevOps / Documentation Lead
+4.  **Prativa Rai** (ID: A00021056) - Database Administrator / Tester
+5.  **Rupesh Shah** (ID: A00017407) - DevOps / Documentation Lead
 
 ---
 
