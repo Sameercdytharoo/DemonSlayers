@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Foodshare Green Tech 🌿
 
 **Group:** FoodShare Green Tech Team
@@ -21,14 +20,14 @@ A web application to reduce food waste by connecting community members to share 
 3.  **Access the App**: Open [http://localhost:3000](http://localhost:3000)
 4.  **Access Database**: Open [http://localhost:8081](http://localhost:8081) (PHPMyAdmin)
 
-## technical Stack
+## Technical Stack
 - **Backend**: Node.js, Express
 - **Database**: MySQL
-- **Frontend**: HTML5, CSS3, JavaScript (Vanilla)
+- **Frontend**: HTML5, CSS3, JavaScript (Vanilla), Pug (Templates)
 
 ## Project Structure
-- `app/`: Backend code (`app.js`, `services/`)
-- `static/`: Frontend assets (`index.html`, `css/`, `js/`)
+- `app/`: Backend code (`app.js`, `services/`, `views/`)
+- `static/`: Frontend assets (`css/`, `js/`)
 - `foodshare-db.sql`: Database schema and initial data
 
 ## 📂 Submission & Assessment Steps (Sprint 1)
@@ -47,8 +46,4 @@ According to your Assessment Brief, ensure you complete these manual steps:
     *   Submit this PDF to Moodle by the deadline.
 
 ## License
-## License
 FoodShare Green Tech Team - 2026
-=======
-# Software Engineering Group Project.
->>>>>>> origin/main
