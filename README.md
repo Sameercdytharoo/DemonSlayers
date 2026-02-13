@@ -9,7 +9,7 @@ A web application to reduce food waste by connecting community members to share 
 ## Features (Sprint 1)
 - **View Food Items**: Browse available food donations in your area.
 - **Post Donations**: Share surplus food by filling out a simple form.
-- **Responsive Design**: Mobile-friendly interface with a "Green Tech" theme.
+- **Responsive Design**: Mobile-friendly interface with a "Green Teach" theme.
 
 ## Quick Start
 1.  **Clone the repository**.
