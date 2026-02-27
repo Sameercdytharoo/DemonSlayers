@@ -15,8 +15,15 @@
 - [x] **Frontend Home**: Landing page with "Green Tech" theme.
 - [x] **Documentation**: Code of Conduct, Personas, Ethical review.
 
-## Sprint 2 Backlog (Next Sprint) - TO DO
-- [ ] **User Authentication**: Register and Login functionality.
-- [ ] **Session Management**: Securely manage user sessions.
-- [ ] **Claim Functionality**: Allow logged-in users to claim items.
-- [ ] **My Items Page**: Dashboard for donors to see their listed items.
+## Sprint 2 Backlog (Architecture & Specification) - DONE
+- [x] **User Stories**: Prioritized features and acceptance criteria.
+- [x] **System Modeling**: UML diagrams (Use Case, Activity, ERD, Sequence).
+- [x] **Wireframing**: Low-fidelity designs for core features.
+- [x] **Design System**: Established color palette and typography.
+
+## Sprint 3 Backlog (Development Phase) - TO DO (Starting Now)
+- [ ] **FS-101**: User Registration & Bcrypt Hashing (Assign: Dhiraj)
+- [ ] **FS-102**: Dynamic Homepage with PUG (Assign: Mahesh)
+- [ ] **FS-103**: Node/Express CRUD API for Food Items (Assign: Dhiraj)
+- [ ] **FS-104**: MySQL Data Persistence (Assign: Prativa)
+- [ ] **FS-105**: Application testing & Docker verification (Assign: Sameer)

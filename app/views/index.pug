@@ -12,6 +12,8 @@ html(lang="en")
     header
       div.container.header-content
         h1.logo FoodShare 🌿
+        div.search-container
+          input#search-input(type="text", placeholder="Search for food...")
         nav
           div.user-switcher
             label(for="user-select") Personas:
@@ -27,16 +29,28 @@ html(lang="en")
         h2 Share Food, Reduce Waste
         p Connect with your community to share surplus food and help the planet.
 
-      section.map-section
-        h3 Food Map
-        div#map-container
-          div#map
+      div.main-content-layout
+        aside.sidebar
+          h3 Categories
+          ul.category-list
+            li: a(href="#", data-category="all") All Items
+            li: a(href="#", data-category="1") Bakery
+            li: a(href="#", data-category="2") Produce
+            li: a(href="#", data-category="3") Canned Goods
+            li: a(href="#", data-category="4") Dairy
+            li: a(href="#", data-category="5") Other
 
-      section.food-grid-section
-        h3 Available Food Near You
-        div#food-grid.food-grid
-          //- Food items will be injected here by JS for now, or we can server-side render them later
-          p.loading Loading fresh items...
+        div.content-area
+          section.map-section
+            h3 Food Map
+            div#map-container
+              div#map
+
+          section.food-grid-section
+            h3 Available Food Near You
+            div#food-grid.food-grid
+              //- Food items will be injected here by JS
+              p.loading Loading fresh items...
 
     //- Modal for Adding Food
     div#donate-modal.modal.hidden
@@ -45,27 +59,25 @@ html(lang="en")
         h2 Post Food Item
         form#donate-form
           div.form-group
-            label(for="name") Item Name
-            input(type="text", id="name", name="name", required)
+            label(for="title") Item Title
+            input(type="text", id="title", name="title", required)
           div.form-group
             label(for="description") Description
             textarea(id="description", name="description", required)
           div.form-group
-            label(for="category") Category
-            select(id="category", name="category")
-              option(value="Fruit") Fruit
-              option(value="Vegetable") Vegetable
-              option(value="Canned Goods") Canned Goods
-              option(value="Bakery") Bakery
-              option(value="Other") Other
+            label(for="category_id") Category
+            select(id="category_id", name="category_id")
+              option(value="1") Bakery
+              option(value="2") Produce
+              option(value="3") Canned Goods
+              option(value="4") Dairy
+              option(value="5") Other
           div.form-group
-            label(for="expiry_date") Expiry Date
-            input(type="date", id="expiry_date", name="expiry_date", required)
+            label(for="expiry_date") Expiry Date/Time
+            input(type="datetime-local", id="expiry_date", name="expiry_date", required)
           div.form-group
-            label(for="location") Location
-            input(type="text", id="location", name="location", required)
-          //- Hidden donor ID for demo - updated by JS
-          input(type="hidden", id="donor_id", name="donor_id", value="1")
+            label(for="image") Upload Image (URL for demo)
+            input(type="text", id="image", name="image_url", placeholder="/img/food-item.png")
           
           button(type="submit").btn.btn-primary Post Item
 
