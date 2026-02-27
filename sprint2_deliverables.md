@@ -24,36 +24,6 @@ The platform allows individuals, households, and local businesses to list surplu
 
 ---
 
-## 3. Requirements Model - Use Case Diagram
-The following diagram illustrates the primary interactions between our system actors and the core functionalities as defined for the MVP.
-
-```mermaid
-usecaseDiagram
-    actor "Donor" as D
-    actor "Recipient" as R
-    actor "Guest" as G
-
-    package "FoodShare System" {
-        usecase "Register/Login" as UC1
-        usecase "List surplus food" as UC2
-        usecase "Browse food items" as UC3
-        usecase "Filter by category" as UC4
-        usecase "Claim food item" as UC5
-        usecase "Manage personal listings" as UC6
-    }
-
-    G --> UC1
-    G --> UC3
-    D --> UC1
-    D --> UC2
-    D --> UC6
-    R --> UC1
-    R --> UC3
-    R --> UC4
-    R --> UC5
-```
-
----
 
 ## 4. Sprint 3 Specification (Requirements & Design)
 This section contains the detailed specifications required to begin full-stack development in Sprint 3.
