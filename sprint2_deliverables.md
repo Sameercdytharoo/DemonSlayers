@@ -210,11 +210,7 @@ Our team uses a unified GitHub Project board.
 | **Discussion points** | Approved Forest Green palette and card-based layout. |
 | **Actions** | FS-03: Finalize CSS Tokens (Done) |
 
-## 10. Student Readiness Statement
-All team members (**Sameer, Mahesh, Dhiraj, Prativa, Rupesh**) are up to date with lab work and have Docker configured. The team is fully prepared to start development of Sprint 3 features immediately.
 
----
-
-## 11. Project Links
+## 10. Project Links
 - **GitHub Repository:** [https://github.com/Sameercdytharoo/FoodShare-GreenTech](https://github.com/Sameercdytharoo/FoodShare-GreenTech)
 - **Task Board:** [https://github.com/users/maheshbatala/projects/1](https://github.com/users/maheshbatala/projects/1)
